@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>11</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Newtonsoft.Jason</PackageId>
+    <Title>Newtonsoft.Jason</Title>
+    <Authors>Toby Smith</Authors>
+    <Description>The beast seraializaationa formaat out tahere!</Description>
+    <PackageProjectUrl>https://github.com/tobysmith568/Newtonsoft.Jason</PackageProjectUrl>
+    <PackageTags>json deserialization serialization april-fools</PackageTags>
+    <PackageReadmeFile>./README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/tobysmith568/Newtonsoft.Jason</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
